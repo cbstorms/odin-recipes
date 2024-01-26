@@ -1,21 +1,44 @@
 body {
-    background-color: #00ffff;
+    background-color: #00ffff; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #page-title,
 h2,
 p    {
     text-align: center;
-  
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    background-color: #fff;
+}
+
+#page-title {
+    
+    padding: 40px;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
+h2 {
+    margin-left: -10%;
+    margin-right: -10%;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu-item {
     text-align: center;
     list-style: none;
+   
     font-size: 20px;
-     
+    background-color: #ff43ff;
+    margin: 10px 25%;
+    padding: 25px;
 }
 
 img {
@@ -25,8 +48,7 @@ img {
 }
 
 #page-title + ul {
-   padding-inline-start: 0px; 
-   background-color: #990099;
+   
    padding: 5px;
 
 }
